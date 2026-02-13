@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Love ❤️</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background: black;
+}
+
+/* Sections */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    position: relative;
+}
+
+.section1 { background: linear-gradient(135deg, #ff758c, #ff7eb3); }
+.section2 { background: linear-gradient(135deg, #ff6a88, #ff99ac); }
+.section3 { background: linear-gradient(135deg, #ff4e73, #ff8fab); }
+.section4 { background: linear-gradient(135deg, #ff3e6c, #ff7aa2); }
+.section5 { background: linear-gradient(135deg, #ff2e63, #ff6f91); }
+.section6 { background: linear-gradient(135deg, #ff1e56, #ff4e88); }
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 700px;
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+/* Fade in animation */
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
+}
+
+.fade.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Floating hearts */
+.heart {
+    position: fixed;
+    bottom: -10px;
+    font-size: 20px;
+    animation: float 6s linear infinite;
+    opacity: 0.8;
+}
+
+@keyframes float {
+    to {
+        transform: translateY(-110vh);
+        opacity: 0;
+    }
+}
+
+/* Heartbeat animation */
+.heartbeat {
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+</style>
+</head>
+
+<body>
+
+<!-- 🎵 Hidden YouTube Background Music -->
+<iframe 
+    width="0" 
+    height="0"
+    src="https://youtu.be/uYHNdTPV7pM?si=0J6PyP3OOZE7Ou4q"
+    frameborder="0"
+    allow="autoplay">
+</iframe>
+
+<section class="section1">
+    <div class="fade">
+        <h1>Happy Valentine's Day, Linda MYbabe 🏘❤️</h1>
+        <p>You came into my life and somehow made everything brighter, calmer, and more meaningful without even trying. I love the way you smile when you’re happy, the way you care so deeply, and the way you make even the simplest moments feel special just by being there. Being with you feels like peace and excitement at the same time, like I’ve found my favorite place and my greatest adventure all in one person. Loving you is the easiest and best thing I’ve ever done, and I’m so grateful that I get to call you mine. No matter what life brings, I just want you to know that I’m here, I choose you, and I will always cherish what we have, you are forever myBabe🔒❤️❤️.</p>
+    </div>
+</section>
+
+<section class="section2">
+    <div class="fade">
+        <h1>🎊The Day We Met💊✨</h1>
+        <p>The day I saw you is still one of my favorite memories. I didn’t know it then, but that moment was about to change everything for me. There was just something about you the way you smiled, the way you carried yourself, the energy you brought into the room that instantly caught my attention💊 ❤️. Time felt different for a second, like everything else faded into the background and it was just you🔒❤️. From that day on, nothing felt quite the same, because somehow my world had just gotten a little brighter.</p>
+    </div>
+</section>
+
+<section class="section3">
+    <div class="fade">
+        <h1>🩹Why I Adore You ❤️💕</h1>
+        <p>I adore you because you truly understand me in a way no one else ever has. You listen, you care, and you see me for who I am without judgment. You’re always there for me, whether I’m at my best or my worst, and that means more than I could ever put into words. Your support gives me strength, your presence gives me comfort, and your love gives me peace. You’re not just my girlfriend you’re my safe place, my biggest supporter, and my babe, and I’m so lucky to have you by my side🔒❤️.</p>
+    </div>
+</section>
+
+<section class="section4">
+    <div class="fade">
+        <h1>Our Memories📂🕰 </h1>
+        <p>I will never forget the time we’ve spent together at my house, at the fieldThe future is ours, and that’s what excites me the most. When I think about what’s ahead, I don’t just see days passing — I see more memories, more laughs, more late-night talks, more walks, and more moments that turn into stories we’ll tell one day. I see us growing together, supporting each other’s dreams, and building something real and lasting. No matter where life takes us, I just know I want you there with me. Whatever comes next, I’m ready for it — as long as it’s with you, standing at that corner, walking down the road with no destination, or staying up on calls just talking about everything and nothing. Those moments might seem simple to anyone else, but to me they mean everything. It’s the laughs we shared, the quiet times, the random conversations, the things we’ve done together that made ordinary days unforgettable. Every second with you has become a memory I hold close to my heart, and when I think about “our time,” it’s those moments that remind me how lucky I am to have you🪫🔋🔋.</p>
+    </div>
+</section>
+
+<section class="section5">
+    <div class="fade">
+        <h1>The Future Is Ours 💍</h1>
+        <p>The future is ours🔒, and that’s what excites me the most. When I think about what’s ahead, I don’t just see days passing I see more memories, more laughs, more late-night talks, more walks, and more moments that turn into stories we’ll tell one day. I see us growing together, supporting each other’s dreams, and building something real and lasting. No matter where life takes us, I just know I want you there with me. Whatever comes next, I’m ready for it as long as it’s with you myBabe, I Love You Babe💍🔒❤️.</p>
+    </div>
+</section>
+
+<section class="section6">
+    <div class="fade">
+        <h1 class="heartbeat">Ka o rata myBabe 🔒❤️</h1>
+        <p>Babyyy I love you ouukwaaa 💍❤️💖</p>
+    </div>
+</section>
+
+<script>
+// Fade-in on scroll
+const faders = document.querySelectorAll('.fade');
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+    });
+});
+faders.forEach(el => observer.observe(el));
+
+// Floating hearts continuously
+setInterval(() => {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "💖";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (Math.random() * 20 + 10) + "px";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 6000);
+}, 300);
+
+// Confetti burst at bottom section
+const lastSection = document.querySelector(".section6");
+lastSection.addEventListener("mouseenter", () => {
+    for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement("div");
+        confetti.innerHTML = "✨";
+        confetti.style.position = "fixed";
+        confetti.style.left = Math.random() * 100 + "vw";
+        confetti.style.top = Math.random() * 100 + "vh";
+        confetti.style.fontSize = "20px";
+        document.body.appendChild(confetti);
+
+        setTimeout(() => confetti.remove(), 2000);
+    }
+});
+</script>
+
+</body>
+</html>
